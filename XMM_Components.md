@@ -1,0 +1,317 @@
+Source Module: 2022 Rivian AXM 1.0
+PCB: XMM (infotainment)
+
+# XMM - Components
+
+Side A: (Connectors)
+- U245 - Analog Devices Diode Controller
+	- LTFKD e3
+	- https://www.analog.com/media/en/technical-documentation/data-sheets/ltc4359.pdf
+- U248 - Analog Devices Diode Controller
+	- LTFKD e3
+	- https://www.analog.com/media/en/technical-documentation/data-sheets/ltc4359.pdf
+- U94 - TI I2C Output Current, Voltage, and Power Monitor
+	- 27 TI 226Q
+	- https://www.ti.com/lit/ds/symlink/ina226-q1.pdf
+- U83 - TI Single-Channel Smart High-Side Switch
+	- 1HB08A
+	- 25TE4
+	- CCZY
+	- https://www.ti.com/lit/ds/symlink/tps1hb08-q1.pdf
+- U86 - TI Single-Channel Smart High-Side Switch
+	- 1HB08A
+	- 25TE4
+	- CCZY
+	- https://www.ti.com/lit/ds/symlink/tps1hb08-q1.pdf
+- U91 - TI Single-Channel Smart High-Side Switch
+	- 1HB08A
+	- 25TE4
+	- CCZY
+	- https://www.ti.com/lit/ds/symlink/tps1hb08-q1.pdf
+
+Side B:
+- U6 - TI I2C Output Current, Voltage, and Power Monitor
+	- 27 TI 226Q
+	- https://www.ti.com/lit/ds/symlink/ina226-q1.pdf
+- U13 - TI I2C Output Current, Voltage, and Power Monitor
+	- 27 TI 226Q
+	- https://www.ti.com/lit/ds/symlink/ina226-q1.pdf
+- U15 - TCAN114x-Q1 CAN FD Transceiver
+	- TI 21634/K
+	- 1145T
+	- https://www.ti.com/lit/ds/symlink/tcan1145-q1.pdf
+- U16 - Automotive NAND Flash SSD (Likely 256Gb)
+	- Micron 2PA22 JZ215
+	- MTFDHBL256TDQ-1AT12ATYY
+	- https://www.micron.com/products/storage/ssd/automotive-industrial-ssd-storage/2100at-ssd/part-catalog/part-detail/mtfdhbl256tdq-1at12atyy
+	- Datasheet is restricted access :(
+- U19 - TI I2C Output Current, Voltage, and Power Monitor
+	- 27 TI 226Q
+	- https://www.ti.com/lit/ds/symlink/ina226-q1.pdf
+- U22
+	- 86402 H12U ?LIV KR
+	- ???
+- U26 - muRata BT/WIFI IC
+	- SS2302028
+	- 2AJ719
+	- 1003719000031231
+	- Model: LBEE6ZZ2AJ
+	- FCC ID: VPYLB2AJ
+	- IC: 772C-LB2AJ
+	- https://fcc.report/FCC-ID/VPYLB2AJ/5131549.pdf
+- U27 - Step-Down Switching Regulator Controller
+	- 3851A ID03 e3
+	- https://www.analog.com/media/en/technical-documentation/data-sheets/3851a1fa.pdf
+- U28 - 4-bit noninverting bus transceiver
+	- CH4T245
+	- 2820002 YnD22 10A
+	- https://www.ti.com/lit/ds/symlink/sn74avch4t245.pdf
+- U29 - Automotive Audio Bus (A2B) Transceiver - A2B SPKR
+	- AD2428W
+	- CCSZ01
+	- 5749914.1
+	- 0.1 #215
+	- https://www.analog.com/en/products/AD2428.html
+- U30 - TI I2C Output Current, Voltage, and Power Monitor
+	- 27 TI 226Q
+	- https://www.ti.com/lit/ds/symlink/ina226-q1.pdf
+- U31 - ST EEPROM, I think?
+	- 402RQ K143
+	- I wasn't able to find any concrete specifics for this, but it seems to be an ST TSSOP8 EEPROM chip, as far as I can tell
+- U33 - TI I2C Output Current, Voltage, and Power Monitor
+	- 27 TI 226Q
+	- https://www.ti.com/lit/ds/symlink/ina226-q1.pdf
+- U34 - Automotive Audio Bus (A2B) Transceiver - A2B MIC
+	- AD2428W
+	- CCSZ01
+	- 5749914.1
+	- 0.1 #215
+	- https://www.analog.com/en/products/AD2428.html
+- U35 - TI 2K DSI to FPD-Link III Serializer
+	- UB941ASQ
+	- TI 27G MOKJ G4
+	- MIPI DSI -> FPD-Link III LVDS
+	- https://www.ti.com/product/DS90UB941AS-Q1
+- U36 - Analog Devices 42V 3A Synchronous Step-Down Regulator
+	- LTGRW JE32 e3
+	- Markings point to the LT8609 series of regulators
+	- https://www.analog.com/media/en/technical-documentation/data-sheets/LT8609-8609A-8609B.pdf
+- U37 - 4-bit noninverting bus transceiver
+	- CH4T245
+	- 2820002 YnD22 10A
+	- https://www.ti.com/lit/ds/symlink/sn74avch4t245.pdf
+- U38
+	- 864C2
+	- H12U
+	- 4LT
+- U39 - Main Qualcomm SOM Processor
+	- Silkscreen: 48UMMQSDMB 0GAATSAG
+		- SA8155P 12G
+	- Qualcomm SA8155P
+		- 004-AC
+		- FC20399V
+		- https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/qul7413_sa8155_productbrief_r4.pdf
+	- Micron 2DA47 D9XKJ (x2) - 6GB LPDDR4 RAM/ea (12GB RAM Total)
+		- MT53E1536M32D4DT-046 AIT:A
+		- https://www.mouser.com/datasheet/2/671/200b_z2bm_qdp_auto_lpddr4_lpddr4x-3193416.pdf
+	- Qualcomm PMM8155AU 002-01 (x2)
+- U40 - 4-bit noninverting bus transceiver
+	- CH4T245
+	- 2820002 YnD22 10A
+	- https://www.ti.com/lit/ds/symlink/sn74avch4t245.pdf
+- U42 - 
+- U48 - Marvell Automotive Ethernet PHY - ENET0 PHY
+	- Marvell Q2112-NYD2
+	- TGFF15.25
+	- 2202 A2E
+	- TW
+	- 100/1000BASE-T1 (100mbit -> 1gbit auto ethernet)
+	- https://assets.sourcengine.com/datasheets/ae59eaff-289a-5a8a-b708-6c3b207c9565.pdf
+- U49 - TI 2K DSI to FPD-Link III Serializer
+	- UB941ASQ
+	- TI 27G MOKJ G4
+	- MIPI DSI -> FPD-Link III LVDS
+	- https://www.ti.com/product/DS90UB941AS-Q1
+- U51 - TI 4-bit noninverting bus transceiver
+	- CH4T245
+	- 2820002 YnD22 10A
+	- https://www.ti.com/lit/ds/symlink/sn74avch4t245.pdf
+- U52 - NXP MPC5746C Microcontroller - VIP Processor
+	- SPC5746CBMMJ6
+	- 1N84S CTQV2215B
+	- https://www.nxp.com/docs/en/data-sheet/MPC5746C.pdf
+- U53
+	- TH 2230 3JV??
+	- Unsure, can't find anything online for these markings
+- U58 - 4-bit noninverting bus transceiver
+	- CH4T245
+	- 2820002 YnD22 10A
+	- https://www.ti.com/lit/ds/symlink/sn74avch4t245.pdf
+- U60 - 4-bit noninverting bus transceiver
+	- CH4T245
+	- 2820002 YnD22 10A
+	- https://www.ti.com/lit/ds/symlink/sn74avch4t245.pdf
+- U61 - 4-bit noninverting bus transceiver
+	- CH4T245
+	- 2820002 YnD22 10A
+	- https://www.ti.com/lit/ds/symlink/sn74avch4t245.pdf
+- U62 - Kioxia UFS Storage (128GB?)
+	- 22.16KAE
+	- THGAF8T0T43BAB8
+		- Or maybe THGAF8T0T43BA88?
+	- U85206 JAPAN
+	- I *think* this is 128GB in size, but I couldn't find the exact part number in this datasheet
+	- https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7559/1853_KIOXIAManagedFlashMemoryHighlight.pdf
+- U66 - TI I2C Output Current, Voltage, and Power Monitor
+	- 27 TI 226Q
+	- https://www.ti.com/lit/ds/symlink/ina226-q1.pdf
+- U71 - Marvell Automotive Ethernet PHY - ENET1 PHY
+	- Marvell Q2122-NYD2
+	- TGFC84A.04
+	- 2151 A2E
+	- TW
+	- 100/1000BASE-T1 (100mbit -> 1gbit auto ethernet)
+	- https://assets.sourcengine.com/datasheets/ae59eaff-289a-5a8a-b708-6c3b207c9565.pdf
+- U72 - TI 16V 3MHz op-amp??
+	- UH?83
+	- TI 274 ZTV5 G4
+	- Honestly, I'm not sure what this is due to it having 64 pins
+	- I can't find any parts online that seem to share these markings and also the 64-pin packaging!
+	- Mayyybe something like this? Just based on the 274 marking?
+		- https://www.ti.com/product/TLV274-Q1
+- U77 - TI I2C Output Current, Voltage, and Power Monitor
+	- 27 TI 226Q
+	- https://www.ti.com/lit/ds/symlink/ina226-q1.pdf
+- U78 - TI I2C Output Current, Voltage, and Power Monitor
+	- 27 TI 226Q
+	- https://www.ti.com/lit/ds/symlink/ina226-q1.pdf
+- U84 - TI Automotive USB Current Limiter
+	- 3S713Q
+	- TI 0A8
+	- A7XQ
+	- Automotive USB 0.05-A to 0.6-A adjustable current limit and VBUS/D+/D- short-to-VBATT protection
+	- https://www.ti.com/product/TPD3S713-Q1
+- U95 - TI Quad 2 MP Camera Hub - FPD-Link III Deserializer 
+	- UB960Q
+	- TI 1A4
+	- ZV3K G4
+	- Takes FPD-Link III LVDS and outputs MIPI CSI-2
+	- https://www.ti.com/product/DS90UB960-Q1
+- U101 - Ambarella Automotive Camera SoC
+	- Ambarella CV22AQ-A1-RH
+	- A2203
+	- NPWT7-PN1 1N1
+	- V22AQ55
+	- https://investor.ambarella.com/node/10896/pdf
+		- Unfortunately, the real full datasheet is locked behind registration paywalls
+- U104
+	- Ambarella B8A-A1-RH
+	- A2048
+	- SZD4V-1N3
+	- 1N1 BBA20
+	- Unfortunately, I was unable to find info on this IC online. I'm guessing it's some sort of assistant IC to the main Ambarella camera SoC (the CV22AQ)
+- U105 - Analog Devices MAX96717 CSI-2 to GMSL2 Serializer
+	- 96717G
+	- TJ/VY
+	- 2225 +BAAW
+	- https://www.analog.com/media/en/technical-documentation/data-sheets/max96717.pdf
+- U107 - Micron LPDDR4 SDRAM (2GB / 16Gbit)
+	- Micron 2OD77 D9WCF
+	- MT53D512M32D2DS-046 AAT:D
+	- https://www.mouser.com/datasheet/2/671/200b_z11m_sdp_ddp_qdp_auto_lpddr4_lpddr4x_mt53d-3077597.pdf
+- U108 - Marvell Automotive Ethernet Switch
+	- Marvell 88EA6321-TFJ2
+	- PFM7790.05
+	- 2140 A0P TW
+	- 7-port Ethernet Gigabit-capacity Switch
+	- https://www.infineon.com/assets/row/public/documents/10/45/brightlane-88ea6321-automotive-ethernet-switch-pb.pdf
+- U120 - TI Automotive 1.5A Adjustable LDO Voltage Regulator
+	- TPS
+	- 74801Q
+	- TI 1CI
+	- AQ5J G4
+	- https://www.ti.com/product/TPS74801-Q1
+- U122 - ST EEPROM?
+	- 404RQ K141
+	- I wasn't able to find any concrete specifics for this, but it seems to be an ST TSSOP8 EEPROM chip, as far as I can tell
+- U123 - Analog Devices Dual GMSL2 to CSI-2 Deserializer
+	- MAX96716A
+	- GTM/VY 210
+	- BACCSAW
+	- +
+	- https://www.analog.com/en/products/max96716a.html
+- U242 - onsemi Dual High Side Switch
+	- NCV4 7822 GATG
+	- https://www.onsemi.com/pdf/datasheet/ncv47822-d.pdf
+- U243 - onsemi Dual High Side Switch
+	- NCV4 7822 GAT6
+	- https://www.onsemi.com/pdf/datasheet/ncv47822-d.pdf
+- U244 - onsemi Dual High Side Switch
+	- NCV4 7822 GAT6
+	- https://www.onsemi.com/pdf/datasheet/ncv47822-d.pdf
+- U246 - Infineon 40V Automotive MOSFET
+	- 5N04L1R5
+	- GAG227
+	- Translated Part Number: IPC100N04S5L-1R5
+	- https://www.infineon.com/part/IPC100N04S5L-1R5
+- U247 - Infineon 40V Automotive MOSFET
+	- 5N04L1R5
+	- GAG227
+	- Translated Part Number: IPC100N04S5L-1R5
+	- https://www.infineon.com/part/IPC100N04S5L-1R5
+- U259 - Micron Automotive SLC NAND Flash (4Gbit)
+	- Micron 2NFID NW945
+	- MT29F4G08ABAFAH4-AAT:F
+	- https://www.micron.com/products/storage/nand-flash/slc-nand/part-catalog/part-detail/mt29f4g08abbfah4-aat-f
+- U263 - 4-bit noninverting bus transceiver
+	- CH4T245
+	- 2820002 YnD22 10A
+	- https://www.ti.com/lit/ds/symlink/sn74avch4t245.pdf
+- U266 - 4-bit noninverting bus transceiver
+	- CH4T245
+	- 2820002 YnD22 10A
+	- https://www.ti.com/lit/ds/symlink/sn74avch4t245.pdf
+- U267 - 4-bit noninverting bus transceiver
+	- CH4T245
+	- 2820002 YnD22 10A
+	- https://www.ti.com/lit/ds/symlink/sn74avch4t245.pdf
+- U268 - 4-bit noninverting bus transceiver
+	- CH4T245
+	- 2820002 YnD22 10A
+	- https://www.ti.com/lit/ds/symlink/sn74avch4t245.pdf
+- U269 - 4-bit noninverting bus transceiver
+	- CH4T245
+	- 2820002 YnD22 10A
+	- https://www.ti.com/lit/ds/symlink/sn74avch4t245.pdf
+- U270 - 4-bit noninverting bus transceiver
+	- CH4T245
+	- 2820002 YnD22 10A
+	- https://www.ti.com/lit/ds/symlink/sn74avch4t245.pdf
+- U271 - 4-bit noninverting bus transceiver
+	- CH4T245
+	- 2820002 YnD22 10A
+	- https://www.ti.com/lit/ds/symlink/sn74avch4t245.pdf
+- U274 - Micron Automotive MLC eMMC (256Gb)
+	- Micron 2CA2D JWD43
+	- MTFC32GAPALGT-AAT
+	- https://www.micron.com/products/storage/managed-nand/emmc/part-catalog/part-detail/mtfc32gapalgt-aat
+- U275 - TI Automotive 1.5A Adjustable LDO Voltage Regulator
+	- TPS
+	- 74801Q
+	- TI 1CI
+	- AQ5J G4
+	- https://www.ti.com/product/TPS74801-Q1
+- U276 - TI Automotive 1.5A Adjustable LDO Voltage Regulator
+	- TPS
+	- 74801Q
+	- TI 1CI
+	- AQ5J G4
+	- https://www.ti.com/product/TPS74801-Q1
+- U283 - 4-bit noninverting bus transceiver
+	- CH4T245
+	- 2820002 YnD22 10A
+	- https://www.ti.com/lit/ds/symlink/sn74avch4t245.pdf
+- U285 - Analog Devices 42V 3A Synchronous Step-Down Regulator
+	- LTGRW JE32 e3
+	- Markings point to the LT8609 series of regulators
+	- https://www.analog.com/media/en/technical-documentation/data-sheets/LT8609-8609A-8609B.pdf
