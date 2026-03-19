@@ -1,0 +1,243 @@
+# Overview
+
+- Source Vehicle: 2022 Rivian R1S
+- Source Module: 2022 Rivian AXM 1.0
+- PCB: ACM (ADAS)
+
+# ACM - Components
+
+Side A:
+- U6 - Micron 8Gb (1GB) DDR4 SDRAM
+	- Micron 2ME77 D9XSM
+	- Converted part number: MT40A512M16LY-062E AAT:E
+	- https://www.micron.com/products/memory/dram-components/ddr4-sdram/part-catalog/part-detail/mt40a512m16ly-062e-aat-e
+- U7 - Micron 8Gb (1GB) DDR4 SDRAM
+	- Micron 2ME77 D9XSM
+	- Converted part number: MT40A512M16LY-062E AAT:E
+	- https://www.micron.com/products/memory/dram-components/ddr4-sdram/part-catalog/part-detail/mt40a512m16ly-062e-aat-e
+- U8 - Micron 8Gb (1GB) DDR4 SDRAM
+	- Micron 2ME77 D9XSM
+	- Converted part number: MT40A512M16LY-062E AAT:E
+	- https://www.micron.com/products/memory/dram-components/ddr4-sdram/part-catalog/part-detail/mt40a512m16ly-062e-aat-e
+- U9 - Micron 8Gb (1GB) DDR4 SDRAM
+	- Micron 2ME77 D9XSM
+	- Converted part number: MT40A512M16LY-062E AAT:E
+	- https://www.micron.com/products/memory/dram-components/ddr4-sdram/part-catalog/part-detail/mt40a512m16ly-062e-aat-e
+- U10 - Micron 8Gb (1GB) DDR4 SDRAM
+	- Micron 2ME77 D9XSM
+	- Converted part number: MT40A512M16LY-062E AAT:E
+	- https://www.micron.com/products/memory/dram-components/ddr4-sdram/part-catalog/part-detail/mt40a512m16ly-062e-aat-e
+- U16 - TI Four-Output Clock Buffer and Level Translator for PCIe Gen 1 to Gen 5
+	- K00334Q
+	- 11U
+	- A8XR G3
+	- https://www.ti.com/lit/ds/symlink/lmk00334-q1.pdf
+- U18 - Micron 8Gb (1GB) DDR4 SDRAM
+	- Micron 2ME77 D9XSM
+	- Converted part number: MT40A512M16LY-062E AAT:E
+	- https://www.micron.com/products/memory/dram-components/ddr4-sdram/part-catalog/part-detail/mt40a512m16ly-062e-aat-e
+- U19 - Micron 8Gb (1GB) DDR4 SDRAM
+	- Micron 2ME77 D9XSM
+	- Converted part number: MT40A512M16LY-062E AAT:E
+	- https://www.micron.com/products/memory/dram-components/ddr4-sdram/part-catalog/part-detail/mt40a512m16ly-062e-aat-e
+- U20 - Micron 8Gb (1GB) DDR4 SDRAM
+	- Micron 2ME77 D9XSM
+	- Converted part number: MT40A512M16LY-062E AAT:E
+	- https://www.micron.com/products/memory/dram-components/ddr4-sdram/part-catalog/part-detail/mt40a512m16ly-062e-aat-e
+- U21 - Micron 8Gb (1GB) DDR4 SDRAM
+	- Micron 2ME77 D9XSM
+	- Converted part number: MT40A512M16LY-062E AAT:E
+	- https://www.micron.com/products/memory/dram-components/ddr4-sdram/part-catalog/part-detail/mt40a512m16ly-062e-aat-e
+- U22 - Micron 8Gb (1GB) DDR4 SDRAM
+	- Micron 2ME77 D9XSM
+	- Converted part number: MT40A512M16LY-062E AAT:E
+	- https://www.micron.com/products/memory/dram-components/ddr4-sdram/part-catalog/part-detail/mt40a512m16ly-062e-aat-e
+- U27 - Infineon OptiMOS-5 Power MOSFET
+	- 5M04L1R5
+	- GAF231
+	- https://www.infineon.com/assets/row/public/documents/10/49/infineon-ipc100n04s5l-1r5-ds-en.pdf?fileId=5546d4625696ed760156d5753a01605e
+- U28 - Infineon OptiMOS-5 Power MOSFET
+	- 5M04L1R5
+	- GAF231
+	- https://www.infineon.com/assets/row/public/documents/10/49/infineon-ipc100n04s5l-1r5-ds-en.pdf?fileId=5546d4625696ed760156d5753a01605e
+- U32 - TI Four-Output Clock Buffer and Level Translator for PCIe Gen 1 to Gen 5
+	- K00334Q
+	- 11U
+	- A8XR G3
+	- https://www.ti.com/lit/ds/symlink/lmk00334-q1.pdf
+- U33 - NXP Layerscape 64-bit 8-core ARM Cortex-A72 Microcontroller
+	- LS2084ACE7TTB
+	- SBXX2147
+	- 2N06T KOREA RNBASBC
+	- https://www.nxp.com/part/LS2084ACE7TTB
+- U36 - Analog Devices Dual Output DC/DC Controller
+	- LT 2142
+	- LTC3875
+	- UJ
+	- B549365
+	- https://www.analog.com/en/products/ltc3875.html
+- U45 - Infineon OptiMOS-5 Power MOSFET
+	- 5M04L1R5
+	- GAF231
+	- https://www.infineon.com/assets/row/public/documents/10/49/infineon-ipc100n04s5l-1r5-ds-en.pdf?fileId=5546d4625696ed760156d5753a01605e
+- U46 - Infineon OptiMOS-5 Power MOSFET
+	- 5M04L1R5
+	- GAF231
+	- https://www.infineon.com/assets/row/public/documents/10/49/infineon-ipc100n04s5l-1r5-ds-en.pdf?fileId=5546d4625696ed760156d5753a01605e
+- U47 - TI Four-Output Clock Buffer and Level Translator for PCIe Gen 1 to Gen 5
+	- K00334Q
+	- 11U
+	- A8XR G3
+	- https://www.ti.com/lit/ds/symlink/lmk00334-q1.pdf
+- U57 - Micron 1Gb (125MB) Serial NOR Flash
+	- ISAI7 RW249
+	- IGZK
+	- Decoded pat number: MT25QU01GBBB8E12-0AAT
+	- https://www.micron.com/products/storage/nor-flash/serial-nor/part-catalog/part-detail/mt25qu01gbbb8e12-0aat
+	- https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2293/MT25QU01GBBB_DS.pdf
+- U74 - Micron 512GB PCIe Gen 3 NVMe TLC SSD
+	- Micron 2MA22 JZ217
+	- Decoded part number: MTFDHBL512TDQ-1AT12ATYY
+	- 2000 MB/s sequential read
+	- 1800 MB/s sequential write
+	- https://www.farnell.com/datasheets/3151581.pdf
+- U91 - Marvell/Infineon BRIGHTLANE 10/100/1000 Mbps Ethernet Transceiver
+	- Marvell 88EA1512-NNP2
+	- PFX1800.28
+	- 2147 B2P TW
+	- Despite being branded Marvell, it seems like this specific product is an Infineon product?
+	- https://www.infineon.com/products/ethernet/automotive-phy/88ea1512
+	- https://www.infineon.com/assets/row/public/documents/10/45/brightlane-88ea1512-10-100-1000mbs-phy-media-convertor-pb.pdf
+- U104 - TI Quad 5.5V 1MHz Operational Amplifier
+	- OP4348Q
+	- 1BK G4
+	- AMHY
+	- https://www.ti.com/product/OPA4348
+- U108 - Murata Manufacturing SCC3000-series X/Z-axis Gyro & 3-axis Accelerometer
+	- SCC3134-D11
+	- 24521015FCC30
+	- "SCC3000 is targeted at safety critical applications" such as electronic stability control, dynamic chassis control, lane-keeping assistance, etc.
+	- Based on the part number being similar to the SCC3134-D10, I'm pretty sure this would have a 1-axis gyro and 3-axis accelerometer. Couldn't find any exact info on the D11
+	- https://www.murata.com/en-eu/products/sensor/gyro/overview/lineup/scc3000
+- U135 - Marvell Automotive Ethernet PHY
+	- Marvell Q2112-NYD2
+	- TGFF15 17
+	- 2202 A2E
+	- TW
+	- 100/1000BASE-T1 (100mbit -> 1gbit auto ethernet)
+	- https://assets.sourcengine.com/datasheets/ae59eaff-289a-5a8a-b708-6c3b207c9565.pdf
+- U136 - TI High-Precision Current Sense Amplifier
+	- I30
+	- 2A2Q
+	- 1AK G4
+	- CH26
+	- 36V, Bidirectional, 550kHz, 5V/us
+	- https://www.ti.com/lit/ds/symlink/ina302-q1.pdf
+- U137 - Infineon/Marvell 7-port Unmanaged Automotive Ethernet Switch
+	- Marvell 88EA6321-TF J2
+	- PFM7790 02
+	- 2140 A0P TW
+	- https://www.infineon.com/part/88EA6321A0-TFJ2A000
+	- https://www.infineon.com/assets/row/public/documents/10/45/brightlane-88ea6321-automotive-ethernet-switch-pb.pdf
+- U141 - TI High-Precision Current Sense Amplifier
+	- I30
+	- 2A2Q
+	- 1AK G4
+	- CH26
+	- 36V, Bidirectional, 550kHz, 5V/us
+	- https://www.ti.com/lit/ds/symlink/ina302-q1.pdf
+- U146 - ISSI 64Mb (8MB) SRAM
+	- ISSI 2218
+	- IS67WVE4M16EBLL
+	- -70BLA2 N507
+	- BTL292000Y3
+	- https://www.mouser.com/datasheet/3/3722/1/66_67WVE4M16EALL_BLL_CLL.pdf
+- U147 - ISSI 64Mb (8MB) SRAM
+	- ISSI 2218
+	- IS67WVE4M16EBLL
+	- -70BLA2 N507
+	- BTL292000Y3
+	- https://www.mouser.com/datasheet/3/3722/1/66_67WVE4M16EALL_BLL_CLL.pdf
+- U151 - Infineon AURIX TriCore TC299TX Microcontroller
+	- TriCore SAK-TC299TX-128
+	- F300N BC
+	- INFINEON 14
+	- 84PPU4180J1
+	- https://www.infineon.com/part/SAK-TC299TX-128F300N-BC
+- U152 - Infineon AURIX TriCore TC299TX Microcontroller
+	- TriCore SAK-TC299TX-128
+	- F300N BC
+	- INFINEON 14
+	- 84PPU4130J1
+	- https://www.infineon.com/part/SAK-TC299TX-128F300N-BC
+- U153 - TI High-Precision Current Sense Amplifier
+	- I30
+	- 2A2Q
+	- 1AK G4
+	- CH26
+	- 36V, Bidirectional, 550kHz, 5V/us
+	- https://www.ti.com/lit/ds/symlink/ina302-q1.pdf
+- U157 - Marvell Automotive Ethernet PHY
+	- Marvell Q2112-NYD2
+	- TGFF15 17
+	- 2202 A2E
+	- TW
+	- 100/1000BASE-T1 (100mbit -> 1gbit auto ethernet)
+	- https://assets.sourcengine.com/datasheets/ae59eaff-289a-5a8a-b708-6c3b207c9565.pdf
+- U160 - TI High-Precision Current Sense Amplifier
+	- I30
+	- 2A2Q
+	- 1AK G4
+	- CH26
+	- 36V, Bidirectional, 550kHz, 5V/us
+	- https://www.ti.com/lit/ds/symlink/ina302-q1.pdf
+- U163 - ISSI 64Mb (8MB) SRAM
+	- ISSI 2218
+	- IS67WVE4M16EBLL
+	- -70BLA2 N507
+	- BTL292000Y3
+	- https://www.mouser.com/datasheet/3/3722/1/66_67WVE4M16EALL_BLL_CLL.pdf
+- U164 - ISSI 64Mb (8MB) SRAM
+	- ISSI 2218
+	- IS67WVE4M16EBLL
+	- -70BLA2 N507
+	- BTL292000Y3
+	- https://www.mouser.com/datasheet/3/3722/1/66_67WVE4M16EALL_BLL_CLL.pdf
+- U248 - TI Quad 5.5V 1MHz Operational Amplifier
+	- OP4348Q
+	- TI 1BK G4
+	- AHHY
+	- https://www.ti.com/product/OPA4348
+
+Side B:
+- U177 - Analog Devices Dual Output DC/DC Controller
+	- LT 2151
+	- LTC3875
+	- UJ
+	- B633976
+	- https://www.analog.com/en/products/ltc3875.html
+- U180 - Infineon 40V Automotive MOSFET
+	- 5N04L1R5
+	- GAF231
+	- https://www.infineon.com/part/IPC100N04S5L-1R5
+- U185 - Infineon 40V Automotive MOSFET
+	- 5N04L1R5
+	- GAF231
+	- https://www.infineon.com/part/IPC100N04S5L-1R5
+- U221 - NXP High-speed CAN Transceiver
+	- TJA1145T/FD
+	- DX80006H
+	- ZnD22121
+	- Supports CAN FD and standard high-speed CAN 2.0
+	- Supports data rates up to 2 Mbit/s
+	- Bit rates of 50kbit/s, 100kbit/s, 125kbit/s, 250kbit/s, 500kbit/s, and 1mbit/s supported during selective wakeup
+	- https://www.nxp.com/docs/en/data-sheet/TJA1145.pdf
+- U229 - TI 40V Smart High-Side Power Switch
+	- 1H100AQ
+	- 24T G4
+	- A9TX
+	- https://www.ti.com/lit/ds/symlink/tps1h100-q1.pdf
+- U239 - Infineon/Spansion 128Mbit NOR Flash
+	- FL128SAMF00
+	- 264QQ062 A
+	- 11 SPANSION
