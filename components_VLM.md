@@ -1,0 +1,127 @@
+# Overview
+
+- Source Vehicle: 2022 Rivian R1S
+- Source Module: 2022 Rivian AXM 1.0
+- PCB: VLM (ACM daughterboard)
+
+# VLM - Components
+
+Side A:
+- U4 - TI Dual FPD-Link III Deserializer Hub with MIPI CSI-2 Outputs for Cameras and RADAR
+	- UB954Q
+	- TI 28I
+	- C8K2 G4
+- U5 - Micron LPDDR4 RAM - 2GB (16Gbit)
+	- Micron 2OD77 D9WCF
+	- MT53D512M32D2DS-046 AAT:D
+	- https://www.digikey.com/en/products/detail/micron-technology-inc/MT53D512M32D2DS-046-AAT-D-TR/7598327
+- U6 - Micron LPDDR4 RAM - 2GB (16Gbit)
+	- Micron 2OD77 D9WCF
+	- MT53D512M32D2DS-046 AAT:D
+	- https://www.digikey.com/en/products/detail/micron-technology-inc/MT53D512M32D2DS-046-AAT-D-TR/7598327
+- U7 - Ambarella Camera/Vision Processing SoC
+	- Ambarella CV2AQ-A1-RH
+	- A2138 NPT1G-PN1
+	- 1N1 CV2AQ70
+	- https://anyconnect.com/recommended-socs/ambarella/CV2AQ
+	- Unfortunately not much public data online about these chips, no datasheets.
+- U12 - Marvell/Infineon BRIGHTLANE 10/100/1000 Mbps Ethernet Transceiver
+	- Marvell 88EA1512-NNP2
+	- PGV3500.17
+	- 2151 B2P
+	- TW
+	- Despite being branded Marvell, it seems like this specific product is an Infineon product?
+	- https://www.infineon.com/products/ethernet/automotive-phy/88ea1512
+	- https://www.infineon.com/assets/row/public/documents/10/45/brightlane-88ea1512-10-100-1000mbs-phy-media-convertor-pb.pdf
+- U13 - Analog Devices 5V, 10A Synchronous Step-Down DC/DC Converter
+	- LHCN
+	- I860
+	- v269
+	- Unsure of exact model, there are at least 6 different model DC/DC converters made by Analog that are simply labeled "LHCN"
+	- https://www.alldatasheet.net/view_marking.jsp?sField=4&Searchword=LHCN&list=15
+- U18 - Marvell/Infineon BRIGHTLANE 10/100/1000 Mbps Ethernet Transceiver
+	- Marvell 88EA1512-NNP2
+	- PGV3500.17
+	- 2151 B2P
+	- TW
+	- Despite being branded Marvell, it seems like this specific product is an Infineon product?
+	- https://www.infineon.com/products/ethernet/automotive-phy/88ea1512
+	- https://www.infineon.com/assets/row/public/documents/10/45/brightlane-88ea1512-10-100-1000mbs-phy-media-convertor-pb.pdf
+- U19 - Analog Devices 5V, 10A Synchronous Step-Down DC/DC Converter
+	- LHCN
+	- I860
+	- v269
+	- Unsure of exact model, there are at least 6 different model DC/DC converters made by Analog that are simply labeled "LHCN"
+	- https://www.alldatasheet.net/view_marking.jsp?sField=4&Searchword=LHCN&list=15
+- U24 - TI Dual FPD-Link III Deserializer Hub with MIPI CSI-2 Outputs for Cameras and RADAR
+	- UB954Q
+	- TI 28I
+	- C8K2 G4
+	- www.ti.com/lit/ds/symlink/ds90ub954-q1.pdf
+- U27 - TI Dual FPD-Link III Deserializer Hub with MIPI CSI-2 Outputs for Cameras and RADAR
+	- UB954Q
+	- TI 28I
+	- C8K2 G4
+	- www.ti.com/lit/ds/symlink/ds90ub954-q1.pdf
+- U28 - Micron LPDDR4 RAM - 2GB (16Gbit)
+	- Micron 2OD77 D9WCF
+	- MT53D512M32D2DS-046 AAT:D
+	- https://www.digikey.com/en/products/detail/micron-technology-inc/MT53D512M32D2DS-046-AAT-D-TR/7598327
+- U29 - Micron LPDDR4 RAM - 2GB (16Gbit)
+	- Micron 2OD77 D9WCF
+	- MT53D512M32D2DS-046 AAT:D
+	- https://www.digikey.com/en/products/detail/micron-technology-inc/MT53D512M32D2DS-046-AAT-D-TR/7598327
+- U33 - Ambarella Camera/Vision Processing SoC
+	- Ambarella CV2AQ-A1-RH
+	- A2138 NPT1G-PN1
+	- 1N1 CV2AQ70
+	- https://anyconnect.com/recommended-socs/ambarella/CV2AQ
+	- Unfortunately not much public data online about these chips, no datasheets.
+- U63 - Analog Devices 5V, 10A Synchronous Step-Down DC/DC Converter
+	- LHCN
+	- I860
+	- v269
+	- Unsure of exact model, there are at least 6 different model DC/DC converters made by Analog that are simply labeled "LHCN"
+	- https://www.alldatasheet.net/view_marking.jsp?sField=4&Searchword=LHCN&list=15
+- U64 - Analog Devices 5V, 10A Synchronous Step-Down DC/DC Converter
+	- LHCN
+	- I860
+	- v269
+	- Unsure of exact model, there are at least 6 different model DC/DC converters made by Analog that are simply labeled "LHCN"
+	- https://www.alldatasheet.net/view_marking.jsp?sField=4&Searchword=LHCN&list=15
+- U65 - Analog Devices 5V, 10A Synchronous Step-Down DC/DC Converter
+	- LHCN
+	- I860
+	- v269
+	- Unsure of exact model, there are at least 6 different model DC/DC converters made by Analog that are simply labeled "LHCN"
+	- https://www.alldatasheet.net/view_marking.jsp?sField=4&Searchword=LHCN&list=15
+- U68 - Analog Devices Dual GMSL2 to CSI-2 Deserializer
+	- MAX96716A
+	- GTM/V 148
+	- BACCSAS
+	- https://www.analog.com/media/en/technical-documentation/data-sheets/max96716a.pdf
+
+Side B:
+- U35 - Micron 1Gb (125MB) Serial NOR Flash
+	- IXAI7
+	- RW249
+	- MT
+	- 9Z5T
+	- https://www.micron.com/products/storage/nor-flash/serial-nor/part-catalog/part-detail/mt25qu01gbbb8e12-0aat
+	- https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2293/MT25QU01GBBB_DS.pdf
+- U60 - National Semiconductor (TI) Single Port USB Power Switch
+	- 24DF
+	- 3525
+	- M-L
+	- https://rocelec.widen.net/view/pdf/mqvook8ppd/NATLS25946-1.pdf
+- U62 - Micron 1Gb (125MB) Serial NOR Flash
+	- IXAI7 RW249
+	- 9Z5T
+	- Decoded Part Number: MT25QU01GBBB8E12-0AAT
+	- https://www.micron.com/products/storage/nor-flash/serial-nor/part-catalog/part-detail/mt25qu01gbbb8e12-0aat
+	- https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2293/MT25QU01GBBB_DS.pdf
+- U67 - National Semiconductor (TI) Single Port USB Power Switch
+	- 24DF
+	- 3525
+	- M-L
+	- https://rocelec.widen.net/view/pdf/mqvook8ppd/NATLS25946-1.pdf
