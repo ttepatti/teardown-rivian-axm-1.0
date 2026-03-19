@@ -1,5 +1,8 @@
-Source Module: 2022 Rivian AXM 1.0
-PCB: XMM (infotainment)
+# Overview
+
+- Source Vehicle: 2022 Rivian R1S
+- Source Module: 2022 Rivian AXM 1.0
+- PCB: XMM (infotainment)
 
 # XMM - Components
 
